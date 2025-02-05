@@ -1,0 +1,19 @@
+
+After cloning the app
+
+--In one terminal open backend (cd backend)
+python -m textblob.download_corpora
+install dependencies (pip install -r requirements.txt)
+unzip model file and save it in backend folder as "fine-tuned-roberta-large-tf"
+python app.py
+
+
+
+--In another terminal open sentiment-analysis-app(cd sentiment-analysis-app)
+npm i
+npm install axios
+npm start
+npm install react-select
+npm install @mui/material @emotion/react @emotion/styled
+npm install react-chartjs-2 chart.js
+npm list react-chartjs-2 chart.js
